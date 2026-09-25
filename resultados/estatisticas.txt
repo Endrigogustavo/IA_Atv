@@ -1,0 +1,39 @@
+RESULTADOS - ATIVIDADE P3
+Integrantes: Endrigo Gustavo Brandao de Oliveira e Nickolas Maia de Araujo
+
+Base: 300 alunos | treino: 240 | teste: 60
+
+Notas reais (teste)      media = 6.60   desvio = 1.11
+Notas previstas (teste)  media = 6.72   desvio = 0.98
+
+Erro (real - previsto)
+  media ............................ -0.112
+  desvio padrao .................... 0.691
+  intervalo de 95% dos erros ....... [-1.47 ; 1.24]  (93.3% dos alunos de teste ficaram dentro)
+  IC 95% da media do erro .......... [-0.291 ; 0.066]
+  erro absoluto maximo ............. 2.07
+
+Metricas
+  MAE  (erro medio absoluto) ....... 0.540
+  RMSE ............................. 0.694
+  R2 (teste) ....................... 0.606
+  R2 validacao cruzada (5 folds) ... 0.592 +- 0.081
+  MAE chutando sempre a media ...... 0.857
+
+Previsoes com erro de ate 0,5 ponto: 56.7%
+Previsoes com erro de ate 1,0 ponto: 86.7%
+
+Coeficientes
+  horas_estudo           0.1721
+  frequencia             0.0276
+  atividades_entregues   0.1946
+  nota_anterior          0.3511
+  intercepto             -0.4108
+
+Estatistica descritiva da base
+                      media  desvio_padrao  minimo  maximo
+horas_estudo           6.87           3.23     0.0    17.2
+frequencia            81.70          10.85    49.0   100.0
+atividades_entregues   7.02           1.69     2.0    10.0
+nota_anterior          6.27           1.74     0.0    10.0
+nota_final             6.57           1.20     3.2    10.0
